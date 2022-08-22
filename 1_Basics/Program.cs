@@ -29,9 +29,35 @@ comment
 //float ExampleFloat = 123.21f;
 //string ExampleString = "Example 123";
 #endregion
-
+// Starten på Amogus spil
 #region Variables
-Console.WriteLine("What is your name?");
+Console.ForegroundColor = ConsoleColor.White;
+Console.WriteLine("----------------------------------------------------");
+Console.ForegroundColor = ConsoleColor.DarkRed;
+Console.WriteLine("The Impostors Among Us");
+Console.ForegroundColor = ConsoleColor.White;
+Console.WriteLine("----------------------------------------------------");
+Thread.Sleep(1000);
+Console.WriteLine("Type 'Start' to start the game");
+
+string start = Console.ReadLine();
+
+bool starter = false;
+if (start == "start"){
+    starter = true;
+}
+
+if (starter == true){
+
+    string Impostor1 = "Are you the amogus impostor?";
+
+
+}
+
+Console.WriteLine("Thanks for playing nerd");
+Console.ReadLine();
+
+// Slutning på Amogus spil
 
 //<Type> <Name> = <Value> ;
 string myString = "This is how to define a string variable!";
@@ -40,8 +66,12 @@ string myString = "This is how to define a string variable!";
 myString = Console.ReadLine();
 
 //Writing it back to the console
-Console.WriteLine("Aaah, welcome " + myString + ", nice to meet you!");
+Console.WriteLine("Are you sure this is right? " + myString + "");
 #endregion
+
+string amogus = Console.ReadLine();
+
+Console.WriteLine(amogus);
 
 #region Data types
 Console.WriteLine("Do you want to learn about the simplest data types?");
