@@ -251,7 +251,7 @@ Console.WriteLine("You made Jeff Happy! Big Success");
 else{
 
     Thread.Sleep(1000);
-    Console.Write("You made Jeff cry");
+    Console.WriteLine("You made Jeff cry");
     Thread.Sleep(1000);
     Console.WriteLine("He offered you friendship, and you gave him pain.");
     Thread.Sleep(1000);
